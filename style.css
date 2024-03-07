@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #caf2fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main #container{
+    width: 100%;
+    height: 300px;
+    background-color: #f9e3e3;
+    position: relative;
+}
+
+#main #container #rectangle{
+    height: 100%;
+    width: 400px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
